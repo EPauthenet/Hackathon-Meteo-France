@@ -15,7 +15,7 @@ Dans ce projet, nous souhaitons nous concentrer sur l'évolution de l'isotherme 
 
 ### Zone d'étude 
 
-La zone d'étude comprend les départements suivants: 
+La zone d'étude comprend les départements suivants:
 * Alpes-de-Haute-Provence (04)
 * Hautes-Alpes (05)
 * Alpes-Maritimes (06)
@@ -33,7 +33,7 @@ Nous utilisons donc le jeu de données ``pour le ESMS2-1 ALPX3 2,5km```. Le choi
 
 #### 2) Calcul des indicateurs
 Nous souhaitons mettre en avant deux indicateurs : l'isotherme zéro et la fréquence d'apparition de nuits tropicales. 
-##### Isotherme zéro
+#### Isotherme zéro
 Valeurs calculées : 
 - Nombre de jours où la température moyenne est supérieure à 0 (Tmean > 0) par hiver, avec hiver={janvier, février, mars, avril} pour les données de projection
 - Moyenne, maximium et minimum du nombre de jours sur tous les hivers par plage de 20 ans autour des horizons de temps (2030, 2050, 2070, 2090) pour les données de projection
@@ -43,7 +43,7 @@ Valeurs calculées :
 
 En calculant la moyenne, valeur minimale et valeur maximale on obtient trois scénarios : hiver moyen, hiver "chaud", et hiver "froid". 
 
-##### Nuits tropicales
+#### Nuits tropicales
 
 Une nuit tropicale est définie comme une nuit lors de laquelle la température ne descend pas en-dessous de 20°C.
 
@@ -70,7 +70,13 @@ Dessus, on peut retrouver :
  TODO
 
 ## Installation
-TODO
+
+Cloner le dépôt à l'emplacement de votre choix: <br>
+```git clone https://github.com/justinesommerlatt/Hackathon-Meteo-France``` <br>
+```cd Hackathon-Meteo-France``` <br>
+
+Installer les dépendances : <br>
+```pip install -r requirements.txt```
 
 ## Démarrage
 TODO
